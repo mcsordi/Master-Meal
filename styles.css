@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Genos:wght@100;200;300;400;500;600;700;800;900&family=Libre+Baskerville:wght@400;700&family=Lilita+One&family=Lobster&family=Orbitron:wght@400;500;600;700;800;900&family=Pacifico&family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&family=Russo+One&family=Satisfy&family=Shantell+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/*  
+    
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+   
+    */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4c531;
+}
+.custom-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #f6e4ad;
+}
+:root {
+  --gradient: linear-gradient(to right, #f4c531 35%, #e94822);
+}
+h1.text-logo {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  background: var(--gradient);
+  background-clip: text;
+  color: transparent;
+}
+
+footer {
+  width: 320px;
+  padding-left: 100px;
+}
+.text-logo::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  display: block;
+  background-color: #a45c5c;
+  border-radius: 0rem 0rem 4rem 4rem;
+}
+.content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.input-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+input {
+  width: 70%;
+  height: 35px;
+  outline: none;
+  padding: 10px;
+  border-width: 2px;
+  border-bottom-color: #221133;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  font-size: 18px;
+}
+.info-meals {
+  text-align: center;
+}
+.full-container {
+  width: 500px;
+  height: 550px;
+}
+img {
+  width: 150px;
+  height: 125px;
+}
+.image-meal {
+  width: 500px;
+  height: 550;
+}
+.meal-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 85px;
+  background-color: #f4c531;
+  border-radius: 4px;
+}
