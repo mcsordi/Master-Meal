@@ -2,9 +2,9 @@
 
 ## Languages
 
--JAVASCRIPT
--HTML
--CSS
+- JAVASCRIPT
+- HTML
+- CSS
 
 ## Preview
 
@@ -16,19 +16,25 @@ this is a small project for consult plates and view recipes to cook
 
 ## Clone the Project
 
-1.Copy the repository
+1.Copy the archives of the repository
 
 ```
-https://github.com/mcsordi/Master-Meal.git
+https://github.com/mcsordi/Master-Meal
 ```
 
-2.Open archive
+2.Navigate to app folder
+
+```
+cd Master-Meal
+```
+
+3.Open archive
 
 ```
 Open index.html in your browser
 ```
 
-3.Search
+4.Search
 
 ```
 Search a item and click button to open recipe
