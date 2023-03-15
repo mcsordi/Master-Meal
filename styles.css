@@ -18,26 +18,6 @@ body {
   height: 100vh;
   background-color: #f4c531;
 }
-
-:root {
-  --gradient: linear-gradient(to right, #0c0c0c 40%, #8f71ff);
-}
-h1.text-logo {
-  font-family: "Pacifico", cursive;
-  font-size: 36px;
-  background: var(--gradient);
-  background-clip: text;
-  color: transparent;
-}
-
-.text-logo::after {
-  content: "";
-  height: 4px;
-  width: 100%;
-  display: block;
-  background-color: #8f71ff;
-  border-radius: 0rem 0rem 4rem 4rem;
-}
 .content {
   display: flex;
   align-items: center;
@@ -48,6 +28,7 @@ h1.text-logo {
 .content-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 500px;
   height: 150px;

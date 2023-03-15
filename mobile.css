@@ -1,0 +1,61 @@
+@media screen and (max-width: 500px) {
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  input {
+    width: 80%;
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .image-meal {
+    width: 85px;
+    height: 85px;
+  }
+  .meal-title {
+    width: 250px;
+    height: 60px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .country {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .lists {
+    width: 270px;
+    line-height: 25px;
+    font-size: 10px;
+    column-gap: 20px;
+    padding-right: 10px;
+  }
+  button {
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .div-recipe {
+    width: 300px;
+    height: 550px;
+  }
+  .info-recipe {
+    width: 300px;
+    font-size: 11px;
+  }
+  .img-close {
+    width: 300px;
+    height: 15px;
+    padding-right: 250px;
+    margin-top: 10px;
+  }
+}
