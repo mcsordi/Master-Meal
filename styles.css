@@ -155,7 +155,7 @@ img {
 .div-recipe {
   width: 550px;
   height: 600px;
-  background-color: #fff;
+  background-color: #f9f9f9;
   border-radius: 5px;
   overflow-x: hidden;
   text-overflow: ellipsis;
