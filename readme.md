@@ -1,11 +1,5 @@
 # Master Meal
 
-## Languages
-
-- JAVASCRIPT
-- HTML
-- CSS
-
 ## Preview
 
 <img src="https://github.com/mcsordi/Master-Meal/blob/master/src/image/wallpaper.png" max-width="800"/>
@@ -13,6 +7,12 @@
 ## Introduction
 
 this is a small project for consult plates and view recipes to cook
+
+## Languages
+
+- JAVASCRIPT
+- HTML
+- CSS
 
 ## Clone the Project
 
